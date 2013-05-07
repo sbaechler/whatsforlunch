@@ -27,8 +27,16 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
+    models:[
+        'Restaurant'
+    ],
+
     views: [
         'Main'
+    ],
+
+    controllers: [
+        'main'
     ],
 
     icon: {
