@@ -1,0 +1,9 @@
+{"0":{"length":"39","shorttitle":"Unser 2-Gang Business Lunch besteht aus","title":"Unser 2-Gang Business Lunch besteht aus",
+    "line2":"Salat- oder Antipasti Teller von unserem Buffet","line3":"oder einer Zitronengrassuppe  und",
+    "category":"UNDEFINED","price":"0.00"},
+ "1":{"length":"21","shorttitle":"Geschmorte Kalbsbrust",
+    "title":"Geschmorte Kalbsbrust","line2":"Basmati-Reis  und glasiertes Marktgem\u00fcse",
+     "line3":"","category":"MEAT","price":"29.00"},
+ "2":{"length":"21","shorttitle":"Gebratenes Lachsfilet","title":"Gebratenes Lachsfilet",
+     "line2":"R\u00f6stkartoffeln und Ofengem\u00fcse","line3":"","category":"FISH","price":"28.00"},
+ "profiling":{"summary":"api_time:0.002295970916748"}}

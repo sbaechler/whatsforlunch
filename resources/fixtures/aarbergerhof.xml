@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+	<_0>
+		<id>472</id>
+		<real_name><![CDATA[Aarbergerhof]]></real_name>
+		<url_name><![CDATA[aarbergerhof]]></url_name>
+		<address><![CDATA[Aarbergergasse 40]]></address>
+		<zip>3011</zip>
+		<city><![CDATA[Bern]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>46.9496994018555</latitude>
+		<longitude>7.44238996505737</longitude>
+		<distance>0</distance>
+	</_0>
+	<profiling>
+		<summary><![CDATA[api_time:0.00029993057250977]]></summary>
+	</profiling></result>

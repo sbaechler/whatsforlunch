@@ -1,11 +1,13 @@
 <?php
 
     // cURL mit allen URL-Parametern initialisieren
-    $curlHandle = curl_init("http://www.lunchgate.ch/api/1_0/?api_key=demo&action=getRestaurantsByDistance&latitude=47.3760303&longitude=8.5263574&distance=1000"); 
+    $curlHandle = curl_init("http://www.lunchgate.ch/api/1_0/?api_key=demo&action=getFullProfile&url_name=restaurant-hotel-belvoir&response=menu");
     
     // Authentifizierung festlegen
     curl_setopt($curlHandle, CURLOPT_HTTPAUTH, CURLAUTH_DIGEST);
+
     curl_setopt($curlHandle, CURLOPT_RETURNTRANSFER, TRUE);
+
     
     // Name und PW festlegen
     curl_setopt($curlHandle, CURLOPT_USERPWD, "demo:demo");

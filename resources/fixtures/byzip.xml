@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+	<_0>
+		<id>20</id>
+		<real_name><![CDATA[di Lenardo]]></real_name>
+		<url_name><![CDATA[di-lenardo]]></url_name>
+		<address><![CDATA[Badenerstrasse 155]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3742980957031</latitude>
+		<longitude>8.52190017700195</longitude>
+		<distance>0</distance>
+	</_0>
+	<_1>
+		<id>47</id>
+		<real_name><![CDATA[New Point]]></real_name>
+		<url_name><![CDATA[new-point]]></url_name>
+		<address><![CDATA[Kasernenstrasse 77a]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3758010864258</latitude>
+		<longitude>8.53534984588623</longitude>
+		<distance>0</distance>
+	</_1>
+	<_2>
+		<id>72</id>
+		<real_name><![CDATA[Hermanseck]]></real_name>
+		<url_name><![CDATA[hermanseck]]></url_name>
+		<address><![CDATA[Birmensdorferstrasse 58]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3717002868652</latitude>
+		<longitude>8.52488040924072</longitude>
+		<distance>0</distance>
+	</_2>
+	<_3>
+		<id>120</id>
+		<real_name><![CDATA[Da Teresa Onkel Toms Hütte]]></real_name>
+		<url_name><![CDATA[da-teresa-onkel-toms-hutte]]></url_name>
+		<address><![CDATA[Rotwandstrasse 42]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3751983642578</latitude>
+		<longitude>8.52840042114258</longitude>
+		<distance>0</distance>
+	</_3>
+	<_4>
+		<id>107</id>
+		<real_name><![CDATA[Accademia del Gusto]]></real_name>
+		<url_name><![CDATA[accademia-del-gusto]]></url_name>
+		<address><![CDATA[Rotwandstrasse 62]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3757019042969</latitude>
+		<longitude>8.52925968170166</longitude>
+		<distance>0</distance>
+	</_4>
+	<_5>
+		<id>108</id>
+		<real_name><![CDATA[Exer]]></real_name>
+		<url_name><![CDATA[exer]]></url_name>
+		<address><![CDATA[Tellstr. 10]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3782997131348</latitude>
+		<longitude>8.5285701751709</longitude>
+		<distance>0</distance>
+	</_5>
+	<_6>
+		<id>155</id>
+		<real_name><![CDATA[Camino]]></real_name>
+		<url_name><![CDATA[camino]]></url_name>
+		<address><![CDATA[Freischützgasse 4]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3769989013672</latitude>
+		<longitude>8.53277015686035</longitude>
+		<distance>0</distance>
+	</_6>
+	<_7>
+		<id>190</id>
+		<real_name><![CDATA[Volkshaus]]></real_name>
+		<url_name><![CDATA[volkshaus]]></url_name>
+		<address><![CDATA[Stauffacherstrasse 60]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3754997253418</latitude>
+		<longitude>8.52721977233887</longitude>
+		<distance>0</distance>
+	</_7>
+	<_8>
+		<id>390</id>
+		<real_name><![CDATA[Emilio]]></real_name>
+		<url_name><![CDATA[emilio]]></url_name>
+		<address><![CDATA[Zweierstrasse 9]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3730010986328</latitude>
+		<longitude>8.52715015411377</longitude>
+		<distance>0</distance>
+	</_8>
+	<_9>
+		<id>315</id>
+		<real_name><![CDATA[Leo's Bistro]]></real_name>
+		<url_name><![CDATA[leos-bistro]]></url_name>
+		<address><![CDATA[Birmensdorferstrasse 5]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3728981018066</latitude>
+		<longitude>8.52768039703369</longitude>
+		<distance>0</distance>
+	</_9>
+	<_10>
+		<id>359</id>
+		<real_name><![CDATA[Pflug]]></real_name>
+		<url_name><![CDATA[pflug]]></url_name>
+		<address><![CDATA[Brauerstrasse 74]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3791007995605</latitude>
+		<longitude>8.52490997314453</longitude>
+		<distance>0</distance>
+	</_10>
+	<_11>
+		<id>539</id>
+		<real_name><![CDATA[Café Boy]]></real_name>
+		<url_name><![CDATA[cafe-boy]]></url_name>
+		<address><![CDATA[Kochstrasse 2]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3778991699219</latitude>
+		<longitude>8.51591014862061</longitude>
+		<distance>0</distance>
+	</_11>
+	<_12>
+		<id>422</id>
+		<real_name><![CDATA[Nachtigall]]></real_name>
+		<url_name><![CDATA[nachtigall]]></url_name>
+		<address><![CDATA[Bäckerstrasse 30]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.374698638916</latitude>
+		<longitude>8.52950000762939</longitude>
+		<distance>0</distance>
+	</_12>
+	<_13>
+		<id>423</id>
+		<real_name><![CDATA[Mamma Leone]]></real_name>
+		<url_name><![CDATA[mamma-leone]]></url_name>
+		<address><![CDATA[Rotwandstrasse 49]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3754997253418</latitude>
+		<longitude>8.52844047546387</longitude>
+		<distance>0</distance>
+	</_13>
+	<_14>
+		<id>428</id>
+		<real_name><![CDATA[Brasserie Lam]]></real_name>
+		<url_name><![CDATA[brasserie-lam]]></url_name>
+		<address><![CDATA[Brauerstrasse 42]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3778991699219</latitude>
+		<longitude>8.52709007263184</longitude>
+		<distance>0</distance>
+	</_14>
+	<_15>
+		<id>432</id>
+		<real_name><![CDATA[Don Leone]]></real_name>
+		<url_name><![CDATA[don-leone]]></url_name>
+		<address><![CDATA[Bäckerstrasse 31]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.374698638916</latitude>
+		<longitude>8.52906036376953</longitude>
+		<distance>0</distance>
+	</_15>
+	<_16>
+		<id>433</id>
+		<real_name><![CDATA[Ah-Hua II]]></real_name>
+		<url_name><![CDATA[ah-hua-ii]]></url_name>
+		<address><![CDATA[Ankerstrasse 110]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3760986328125</latitude>
+		<longitude>8.52787017822266</longitude>
+		<distance>0</distance>
+	</_16>
+	<_17>
+		<id>438</id>
+		<real_name><![CDATA[Bistro Lochergut]]></real_name>
+		<url_name><![CDATA[bistro-lochergut]]></url_name>
+		<address><![CDATA[Badenerstrasse 230]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3758010864258</latitude>
+		<longitude>8.51714038848877</longitude>
+		<distance>0</distance>
+	</_17>
+	<_18>
+		<id>459</id>
+		<real_name><![CDATA[Krokodil]]></real_name>
+		<url_name><![CDATA[krokodil]]></url_name>
+		<address><![CDATA[Hohlstrasse 44]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3776016235352</latitude>
+		<longitude>8.52624988555908</longitude>
+		<distance>0</distance>
+	</_18>
+	<_19>
+		<id>471</id>
+		<real_name><![CDATA[Werdguet]]></real_name>
+		<url_name><![CDATA[werdguet]]></url_name>
+		<address><![CDATA[Morgartenstrasse 30]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3716011047363</latitude>
+		<longitude>8.52746963500977</longitude>
+		<distance>0</distance>
+	</_19>
+	<_20>
+		<id>482</id>
+		<real_name><![CDATA[Helvetia]]></real_name>
+		<url_name><![CDATA[helvetia-zurich]]></url_name>
+		<address><![CDATA[Stauffacherquai 1]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau>14</gaultmillau>
+		<latitude>47.3731994628906</latitude>
+		<longitude>8.53170013427734</longitude>
+		<distance>0</distance>
+	</_20>
+	<_21>
+		<id>487</id>
+		<real_name><![CDATA[Bubbles]]></real_name>
+		<url_name><![CDATA[bubbles]]></url_name>
+		<address><![CDATA[Werdstrasse 54]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3726997375488</latitude>
+		<longitude>8.52814960479736</longitude>
+		<distance>0</distance>
+	</_21>
+	<_22>
+		<id>497</id>
+		<real_name><![CDATA[Il Giglio]]></real_name>
+		<url_name><![CDATA[il-giglio]]></url_name>
+		<address><![CDATA[Weberstrasse 14]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau>14</gaultmillau>
+		<latitude>47.3708992004395</latitude>
+		<longitude>8.5283899307251</longitude>
+		<distance>0</distance>
+	</_22>
+	<_23>
+		<id>501</id>
+		<real_name><![CDATA[Kobal Curry + Café]]></real_name>
+		<url_name><![CDATA[kobal-curry-cafe]]></url_name>
+		<address><![CDATA[Kanzleistrasse 78]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3757019042969</latitude>
+		<longitude>8.52439975738525</longitude>
+		<distance>0</distance>
+	</_23>
+	<_24>
+		<id>531</id>
+		<real_name><![CDATA[Paneolio]]></real_name>
+		<url_name><![CDATA[paneolio]]></url_name>
+		<address><![CDATA[Cramerstrasse 8]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3731994628906</latitude>
+		<longitude>8.52616024017334</longitude>
+		<distance>0</distance>
+	</_24>
+	<_25>
+		<id>536</id>
+		<real_name><![CDATA[Caduff's Wine Loft]]></real_name>
+		<url_name><![CDATA[caduffs-wine-loft]]></url_name>
+		<address><![CDATA[Kanzleistrasse 126]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau>15</gaultmillau>
+		<latitude>47.3772010803223</latitude>
+		<longitude>8.52027988433838</longitude>
+		<distance>0</distance>
+	</_25>
+	<_26>
+		<id>546</id>
+		<real_name><![CDATA[Marisqueira Atlantico]]></real_name>
+		<url_name><![CDATA[marisqueira-atlantico]]></url_name>
+		<address><![CDATA[Hohlstrasse 365]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3847999572754</latitude>
+		<longitude>8.50846004486084</longitude>
+		<distance>0</distance>
+	</_26>
+	<_27>
+		<id>585</id>
+		<real_name><![CDATA[Forum]]></real_name>
+		<url_name><![CDATA[forum]]></url_name>
+		<address><![CDATA[Badenerstrasse 120]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3744010925293</latitude>
+		<longitude>8.52371978759766</longitude>
+		<distance>0</distance>
+	</_27>
+	<_28>
+		<id>587</id>
+		<real_name><![CDATA[Peoples Bar, Club & Lounge]]></real_name>
+		<url_name><![CDATA[gate-125]]></url_name>
+		<address><![CDATA[Badenerstrasse 125]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3741989135742</latitude>
+		<longitude>8.52350997924805</longitude>
+		<distance>0</distance>
+	</_28>
+	<_29>
+		<id>652</id>
+		<real_name><![CDATA[Italia]]></real_name>
+		<url_name><![CDATA[italia]]></url_name>
+		<address><![CDATA[Zeughausstrasse 61]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3763999938965</latitude>
+		<longitude>8.52921962738037</longitude>
+		<distance>0</distance>
+	</_29>
+	<_30>
+		<id>734</id>
+		<real_name><![CDATA[Hardhof]]></real_name>
+		<url_name><![CDATA[hardhof]]></url_name>
+		<address><![CDATA[Badenerstrasse 344]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3782005310059</latitude>
+		<longitude>8.51089000701904</longitude>
+		<distance>0</distance>
+	</_30>
+	<_31>
+		<id>817</id>
+		<real_name><![CDATA[Convivio]]></real_name>
+		<url_name><![CDATA[convivio]]></url_name>
+		<address><![CDATA[Rotwandstrasse 62]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3757019042969</latitude>
+		<longitude>8.52925968170166</longitude>
+		<distance>0</distance>
+	</_31>
+	<_32>
+		<id>875</id>
+		<real_name><![CDATA[Certo]]></real_name>
+		<url_name><![CDATA[certo]]></url_name>
+		<address><![CDATA[Strassburgstrasse 5]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.372200012207</latitude>
+		<longitude>8.52892017364502</longitude>
+		<distance>0</distance>
+	</_32>
+	<_33>
+		<id>876</id>
+		<real_name><![CDATA[Greulich]]></real_name>
+		<url_name><![CDATA[greulich]]></url_name>
+		<address><![CDATA[Herman-Greulich-Strasse 56]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau>15</gaultmillau>
+		<latitude>47.3786010742188</latitude>
+		<longitude>8.52052974700928</longitude>
+		<distance>0</distance>
+	</_33>
+	<_34>
+		<id>1012</id>
+		<real_name><![CDATA[Don Leone L'Aperitivo]]></real_name>
+		<url_name><![CDATA[don-leone-laperitivo]]></url_name>
+		<address><![CDATA[Bäckerstrasse 36]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3749732971191</latitude>
+		<longitude>8.5290412902832</longitude>
+		<distance>0</distance>
+	</_34>
+	<_35>
+		<id>1171</id>
+		<real_name><![CDATA[Ristorante Da Pippo]]></real_name>
+		<url_name><![CDATA[ristorante-da-pippo]]></url_name>
+		<address><![CDATA[Herdernstrasse 56]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3829682</latitude>
+		<longitude>8.5059323</longitude>
+		<distance>0</distance>
+	</_35>
+	<_36>
+		<id>1181</id>
+		<real_name><![CDATA[Daniel H.]]></real_name>
+		<url_name><![CDATA[daniel-h]]></url_name>
+		<address><![CDATA[Müllerstrasse 51]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.375431060791</latitude>
+		<longitude>8.5292501449585</longitude>
+		<distance>0</distance>
+	</_36>
+	<_37>
+		<id>1206</id>
+		<real_name><![CDATA[Schmuklerski]]></real_name>
+		<url_name><![CDATA[schmuklerski]]></url_name>
+		<address><![CDATA[Badenerstrasse 101]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3741645812988</latitude>
+		<longitude>8.52516746520996</longitude>
+		<distance>0</distance>
+	</_37>
+	<_38>
+		<id>1374</id>
+		<real_name><![CDATA[Helvti Diner]]></real_name>
+		<url_name><![CDATA[helvti-diner]]></url_name>
+		<address><![CDATA[Kasernenstrasse 2]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3735580444336</latitude>
+		<longitude>8.53197193145752</longitude>
+		<distance>0</distance>
+	</_38>
+	<_39>
+		<id>3021</id>
+		<real_name><![CDATA[Tinto Tapas y Vino]]></real_name>
+		<url_name><![CDATA[tinto-tapas-y-vino]]></url_name>
+		<address><![CDATA[Langstrasse 20]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3751907348633</latitude>
+		<longitude>8.52497577667236</longitude>
+		<distance>0</distance>
+	</_39>
+	<_40>
+		<id>3155</id>
+		<real_name><![CDATA[Hin & Weg Gare]]></real_name>
+		<url_name><![CDATA[hin-weg-gare]]></url_name>
+		<address><![CDATA[Lagerstrasse 16b]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3776893615723</latitude>
+		<longitude>8.53303718566895</longitude>
+		<distance>0</distance>
+	</_40>
+	<_41>
+		<id>3207</id>
+		<real_name><![CDATA[Loft One]]></real_name>
+		<url_name><![CDATA[loft-one]]></url_name>
+		<address><![CDATA[Hohlstrasse 167]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.38045501709</latitude>
+		<longitude>8.5194454193115</longitude>
+		<distance>0</distance>
+	</_41>
+	<_42>
+		<id>3220</id>
+		<real_name><![CDATA[Pizzeria Molino Stauffacher]]></real_name>
+		<url_name><![CDATA[pizzeria-molino-zurich-stauffacher]]></url_name>
+		<address><![CDATA[Stauffacherstrasse 31]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3736000061035</latitude>
+		<longitude>8.52883815765381</longitude>
+		<distance>0</distance>
+	</_42>
+	<_43>
+		<id>4173</id>
+		<real_name><![CDATA[Flora - New Point]]></real_name>
+		<url_name><![CDATA[flora-new-point]]></url_name>
+		<address><![CDATA[Albisriederplatz 5]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3785514831543</latitude>
+		<longitude>8.51019668579102</longitude>
+		<distance>0</distance>
+	</_43>
+	<_44>
+		<id>4175</id>
+		<real_name><![CDATA[Der Schwiizer]]></real_name>
+		<url_name><![CDATA[der-schwiizer]]></url_name>
+		<address><![CDATA[Zwinglistrasse 3]]></address>
+		<zip>8004</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3778038024902</latitude>
+		<longitude>8.52974700927734</longitude>
+		<distance>0</distance>
+	</_44>
+	<_45>
+		<id>476</id>
+		<real_name><![CDATA[Mundial]]></real_name>
+		<url_name><![CDATA[mundial]]></url_name>
+		<address><![CDATA[Neugasse 76]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.38330078125</latitude>
+		<longitude>8.52842998504639</longitude>
+		<distance>0</distance>
+	</_45>
+	<_46>
+		<id>53</id>
+		<real_name><![CDATA[Westend]]></real_name>
+		<url_name><![CDATA[westend]]></url_name>
+		<address><![CDATA[Förrlibuckstrasse 180]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3921012878418</latitude>
+		<longitude>8.51163959503174</longitude>
+		<distance>0</distance>
+	</_46>
+	<_47>
+		<id>241</id>
+		<real_name><![CDATA[Menü Föif]]></real_name>
+		<url_name><![CDATA[menu-foif]]></url_name>
+		<address><![CDATA[Hardstrasse 320]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3902015686035</latitude>
+		<longitude>8.52252960205078</longitude>
+		<distance>0</distance>
+	</_47>
+	<_48>
+		<id>384</id>
+		<real_name><![CDATA[X-TRA]]></real_name>
+		<url_name><![CDATA[x-tra]]></url_name>
+		<address><![CDATA[Limmatstrasse 118]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.384101867676</latitude>
+		<longitude>8.5326700210571</longitude>
+		<distance>0</distance>
+	</_48>
+	<_49>
+		<id>450</id>
+		<real_name><![CDATA[Don Weber]]></real_name>
+		<url_name><![CDATA[don-weber]]></url_name>
+		<address><![CDATA[Heinrichstrasse 213]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3877983093262</latitude>
+		<longitude>8.52443027496338</longitude>
+		<distance>0</distance>
+	</_49>
+	<_50>
+		<id>455</id>
+		<real_name><![CDATA[Toscano im Puls 5]]></real_name>
+		<url_name><![CDATA[toscano-im-puls-5]]></url_name>
+		<address><![CDATA[Giessereistrasse 18]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3902015686035</latitude>
+		<longitude>8.5175199508667</longitude>
+		<distance>0</distance>
+	</_50>
+	<_51>
+		<id>463</id>
+		<real_name><![CDATA[Eisenhof]]></real_name>
+		<url_name><![CDATA[eisenhof]]></url_name>
+		<address><![CDATA[Gasometerstrasse 20]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3835983276367</latitude>
+		<longitude>8.52873992919922</longitude>
+		<distance>0</distance>
+	</_51>
+	<_52>
+		<id>503</id>
+		<real_name><![CDATA[Limmathof]]></real_name>
+		<url_name><![CDATA[limmathof]]></url_name>
+		<address><![CDATA[Limmatstrasse 217]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3875007629395</latitude>
+		<longitude>8.52729988098145</longitude>
+		<distance>0</distance>
+	</_52>
+	<_53>
+		<id>506</id>
+		<real_name><![CDATA[Sala of Tokyo]]></real_name>
+		<url_name><![CDATA[sala-of-tokyo]]></url_name>
+		<address><![CDATA[Limmatstrasse 29]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau>16</gaultmillau>
+		<latitude>47.3810005187988</latitude>
+		<longitude>8.53619956970215</longitude>
+		<distance>0</distance>
+	</_53>
+	<_54>
+		<id>526</id>
+		<real_name><![CDATA[La Contrada]]></real_name>
+		<url_name><![CDATA[la-contrada]]></url_name>
+		<address><![CDATA[Heinrichstrasse 83]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3847999572754</latitude>
+		<longitude>8.52950954437256</longitude>
+		<distance>0</distance>
+	</_54>
+	<_55>
+		<id>555</id>
+		<real_name><![CDATA[Cucina]]></real_name>
+		<url_name><![CDATA[cucina]]></url_name>
+		<address><![CDATA[Luisenstrasse 40]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3842010498047</latitude>
+		<longitude>8.53034019470215</longitude>
+		<distance>0</distance>
+	</_55>
+	<_56>
+		<id>568</id>
+		<real_name><![CDATA[Il Gallo]]></real_name>
+		<url_name><![CDATA[il-gallo]]></url_name>
+		<address><![CDATA[Hardstrasse 324]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3903007507324</latitude>
+		<longitude>8.52285003662109</longitude>
+		<distance>0</distance>
+	</_56>
+	<_57>
+		<id>638</id>
+		<real_name><![CDATA[Cinque]]></real_name>
+		<url_name><![CDATA[cinque]]></url_name>
+		<address><![CDATA[Langstrasse 215]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.38330078125</latitude>
+		<longitude>8.53017997741699</longitude>
+		<distance>0</distance>
+	</_57>
+	<_58>
+		<id>703</id>
+		<real_name><![CDATA[sphères bar buch & bühne]]></real_name>
+		<url_name><![CDATA[spheres-bar-buch-buhne]]></url_name>
+		<address><![CDATA[Hardturmstrasse 66]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3919982910156</latitude>
+		<longitude>8.51877975463867</longitude>
+		<distance>0</distance>
+	</_58>
+	<_59>
+		<id>769</id>
+		<real_name><![CDATA[Vulkan - Indisches Restaurant]]></real_name>
+		<url_name><![CDATA[vulkan-indisches-restaurant]]></url_name>
+		<address><![CDATA[Klingenstrasse 33]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3820991516113</latitude>
+		<longitude>8.53372001647949</longitude>
+		<distance>0</distance>
+	</_59>
+	<_60>
+		<id>796</id>
+		<real_name><![CDATA[Max und Moritz]]></real_name>
+		<url_name><![CDATA[max-und-moritz]]></url_name>
+		<address><![CDATA[Förrlibuckstrasse 70 / 72]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3922996520996</latitude>
+		<longitude>8.51426029205322</longitude>
+		<distance>0</distance>
+	</_60>
+	<_61>
+		<id>852</id>
+		<real_name><![CDATA[Nectar]]></real_name>
+		<url_name><![CDATA[nectar]]></url_name>
+		<address><![CDATA[Limmatstrasse 317]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3902015686035</latitude>
+		<longitude>8.52299976348877</longitude>
+		<distance>0</distance>
+	</_61>
+	<_62>
+		<id>874</id>
+		<real_name><![CDATA[Tant Pis]]></real_name>
+		<url_name><![CDATA[tant-pis]]></url_name>
+		<address><![CDATA[Konradstrasse 73]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3819999694824</latitude>
+		<longitude>8.5332498550415</longitude>
+		<distance>0</distance>
+	</_62>
+	<_63>
+		<id>893</id>
+		<real_name><![CDATA[Way to India]]></real_name>
+		<url_name><![CDATA[way-to-india-zurich]]></url_name>
+		<address><![CDATA[Langstrasse 192]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3820991516113</latitude>
+		<longitude>8.52960014343262</longitude>
+		<distance>0</distance>
+	</_63>
+	<_64>
+		<id>950</id>
+		<real_name><![CDATA[St. Joseph`s Pub]]></real_name>
+		<url_name><![CDATA[st-josephs-pub]]></url_name>
+		<address><![CDATA[Fabrikstrasse 23]]></address>
+		<zip><![CDATA[8005 ]]></zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3863983154297</latitude>
+		<longitude>8.52797031402588</longitude>
+		<distance>0</distance>
+	</_64>
+	<_65>
+		<id>956</id>
+		<real_name><![CDATA[Big Ben Pub Westside]]></real_name>
+		<url_name><![CDATA[big-ben-pub-westside]]></url_name>
+		<address><![CDATA[Hardstrasse 234]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3872985839844</latitude>
+		<longitude>8.51955986022949</longitude>
+		<distance>0</distance>
+	</_65>
+	<_66>
+		<id>3206</id>
+		<real_name><![CDATA[NENI at the 25hours Hotel]]></real_name>
+		<url_name><![CDATA[neni-25hours-hotel]]></url_name>
+		<address><![CDATA[Pfingstweidstrasse 102]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3903999328613</latitude>
+		<longitude>8.50909042358398</longitude>
+		<distance>0</distance>
+	</_66>
+	<_67>
+		<id>1156</id>
+		<real_name><![CDATA[Yooji`s Josef]]></real_name>
+		<url_name><![CDATA[yoojis-josef]]></url_name>
+		<address><![CDATA[Josefstrasse 112]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3836631774902</latitude>
+		<longitude>8.53006362915039</longitude>
+		<distance>0</distance>
+	</_67>
+	<_68>
+		<id>1377</id>
+		<real_name><![CDATA[Times Restaurant and Store]]></real_name>
+		<url_name><![CDATA[times]]></url_name>
+		<address><![CDATA[Gasometerstrasse 7]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3837432861328</latitude>
+		<longitude>8.52851390838623</longitude>
+		<distance>0</distance>
+	</_68>
+	<_69>
+		<id>1391</id>
+		<real_name><![CDATA[Steinfels]]></real_name>
+		<url_name><![CDATA[steinfels]]></url_name>
+		<address><![CDATA[Heinrichstrasse 267]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3883094787598</latitude>
+		<longitude>8.52121734619141</longitude>
+		<distance>0</distance>
+	</_69>
+	<_70>
+		<id>2511</id>
+		<real_name><![CDATA[LY'S ASIA]]></real_name>
+		<url_name><![CDATA[lys-asia]]></url_name>
+		<address><![CDATA[Zahnradstrasse 21]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3862991333008</latitude>
+		<longitude>8.51680755615234</longitude>
+		<distance>0</distance>
+	</_70>
+	<_71>
+		<id>2568</id>
+		<real_name><![CDATA[Frau Gerolds Garten]]></real_name>
+		<url_name><![CDATA[frau-gerolds-garten]]></url_name>
+		<address><![CDATA[Geroldstrasse 23]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3855018615723</latitude>
+		<longitude>8.51918029785156</longitude>
+		<distance>0</distance>
+	</_71>
+	<_72>
+		<id>3247</id>
+		<real_name><![CDATA[Mauri`s Ristorante La Rocca]]></real_name>
+		<url_name><![CDATA[mauris-ristorante-la-rocca]]></url_name>
+		<address><![CDATA[Limmatstrasse 273]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3886604309082</latitude>
+		<longitude>8.52540588378906</longitude>
+		<distance>0</distance>
+	</_72>
+	<_73>
+		<id>3166</id>
+		<real_name><![CDATA[LY'S ASIA - Take Away]]></real_name>
+		<url_name><![CDATA[lys-asia-take-away]]></url_name>
+		<address><![CDATA[Zahnradstrasse 21]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3863525390625</latitude>
+		<longitude>8.51694583892822</longitude>
+		<distance>0</distance>
+	</_73>
+	<_74>
+		<id>3270</id>
+		<real_name><![CDATA[Da Giovanni Prime Tower]]></real_name>
+		<url_name><![CDATA[da-giovanni-prime-tower]]></url_name>
+		<address><![CDATA[Maagplatz 7]]></address>
+		<zip>8005</zip>
+		<city><![CDATA[Zürich]]></city>
+		<gaultmillau><![CDATA[]]></gaultmillau>
+		<latitude>47.3912887573242</latitude>
+		<longitude>8.5082893371582</longitude>
+		<distance>0</distance>
+	</_74>
+	<profiling>
+		<summary><![CDATA[api_time:0.0041649341583252]]></summary>
+	</profiling></result>

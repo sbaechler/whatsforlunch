@@ -24,7 +24,9 @@ Ext.application({
     name: 'Whatsforlunch',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
+        'Ext.data.Store',
+        'Whatsforlunch.reader.Lunchgate'
     ],
 
     models:[
@@ -32,11 +34,12 @@ Ext.application({
     ],
 
     views: [
-        'Main'
+        'Main',
+        'RestaurantList'
     ],
 
     controllers: [
-        'main'
+        'Main'
     ],
 
     icon: {

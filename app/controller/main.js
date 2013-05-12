@@ -1,4 +1,4 @@
-Ext.define('Whatsforlunch.controller.main', {
+Ext.define('Whatsforlunch.controller.Main', {
     extend: 'Ext.app.Controller',
     
     config: {
