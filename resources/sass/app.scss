@@ -1,3 +1,10 @@
+$base-color: #d40e3f;
+$list-header-color: #666;
+$list-header-bg-color: #ccc;
+
+$index-bar-bg-color: #ccc;
+$index-bar-color: #666;
+
 @import 'sencha-touch/default/all';
 
 // You may remove any of the following modules that you
@@ -15,5 +22,12 @@
 @include sencha-carousel;
 @include sencha-form;
 @include sencha-msgbox;
+@include sencha-loading-spinner;
 
-// Your custom code goes here...
+
+@include sencha-tabbar-ui('gray', #111, 'matte', lighten($base-color, 10%));
+@include sencha-toolbar-ui('dark', darken($base-color, 10%), $base-gradient);
+@include sencha-toolbar-ui('gray', #ccc);
+
+//@include icon('gmap', '@');
+//@include icon('list', 'l');

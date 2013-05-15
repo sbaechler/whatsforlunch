@@ -35,12 +35,15 @@ Ext.application({
 
     views: [
         'Main',
-        'RestaurantList'
+        'restaurant.Card',
+        'restaurant.List'
     ],
 
     controllers: [
         'Main'
     ],
+
+    //stores: ['Restaurant'],
 
     icon: {
         '57': 'resources/icons/Icon.png',

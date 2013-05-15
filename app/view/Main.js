@@ -7,6 +7,9 @@ Ext.define('Whatsforlunch.view.Main', {
     ],
     config: {
         tabBarPosition: 'bottom',
+        tabBar: {
+			ui: 'gray'
+		},
 
         items: [
             {
@@ -28,13 +31,7 @@ Ext.define('Whatsforlunch.view.Main', {
                     "and refresh to change what's rendered here."
                 ].join("")
             },
-            {
-                xtype: 'list',
-                title: 'List',
-                iconCls: 'star',
-                store: 'restaurantStore',
-                itemTpl: '<div class="contact2"><strong>{real_name}</strong> {address}</div>'
-            }
+            { xclass: 'Whatsforlunch.view.restaurant.Card' }
         ]
     }
 });
