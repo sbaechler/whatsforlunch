@@ -22,28 +22,34 @@ Ext.Loader.setPath({
 
 Ext.application({
     name: 'Whatsforlunch',
+    title: "What's for lunch?",
+
+    mapCenter: [47.3760303, 8.5263574],
 
     requires: [
         'Ext.MessageBox',
         'Ext.data.Store',
+        'Ext.data.TreeStore',
         'Whatsforlunch.reader.Lunchgate'
     ],
 
     models:[
-        'Restaurant'
+        'Restaurant',
+        'RestaurantProfile'
     ],
 
     views: [
         'Main',
         'restaurant.Card',
-        'restaurant.List'
+        'restaurant.List',
+        'restaurant.Profile'
     ],
 
     controllers: [
-        'Main'
+        'Restaurants'
     ],
 
-    //stores: ['Restaurant'],
+    stores: ['RestaurantProfiles'],
 
     icon: {
         '57': 'resources/icons/Icon.png',

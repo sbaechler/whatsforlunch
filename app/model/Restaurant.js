@@ -12,7 +12,9 @@ Ext.define('Whatsforlunch.model.Restaurant', {
             { name: 'latitude', type: 'auto' },
             { name: 'longitude', type: 'auto' },
             { name: 'distance', type: 'auto' }
-        ]
+        ],
+        associations: { type: 'hasOne', model: 'Whatsforlunch.model.RestaurantProfile',
+                        primaryKey: 'uid'}
     }
 });
 
@@ -27,7 +29,8 @@ var store = Ext.create('Ext.data.Store', {
    sorters: 'distance',
    proxy: {
         type: 'ajax',
-        url : 'get_json.php',
+        url : 'resources/fixtures/bydistance.json',
+       //url : 'get_json.php',
         reader: reader
    }
 });

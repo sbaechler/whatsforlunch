@@ -12,6 +12,7 @@ Ext.define('Whatsforlunch.view.Main', {
 		},
 
         items: [
+            { xclass: 'Whatsforlunch.view.restaurant.Card' },
             {
                 title: 'Welcome',
                 iconCls: 'home',
@@ -30,8 +31,8 @@ Ext.define('Whatsforlunch.view.Main', {
                     "contents of <a target='_blank' href=\"app/view/Main.js\">app/view/Main.js</a> - edit that file ",
                     "and refresh to change what's rendered here."
                 ].join("")
-            },
-            { xclass: 'Whatsforlunch.view.restaurant.Card' }
+            }
+
         ]
     }
 });
