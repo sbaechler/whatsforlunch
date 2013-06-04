@@ -49,7 +49,7 @@ Ext.application({
         'Restaurants'
     ],
 
-    stores: ['RestaurantProfiles'],
+   // stores: ['RestaurantProfiles'],
 
     icon: {
         '57': 'resources/icons/Icon.png',

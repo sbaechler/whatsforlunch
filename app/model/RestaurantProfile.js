@@ -1,6 +1,5 @@
 Ext.define('Whatsforlunch.model.RestaurantProfile', {
     extend: 'Ext.data.Model',
-    require: 'Whatsforlunch.store.RestaurantProfiles',
 
     config: {
         fields: [
@@ -27,3 +26,22 @@ Ext.define('Whatsforlunch.model.RestaurantProfile', {
     }
 
 });
+
+
+var reader = Ext.create('Whatsforlunch.reader.Lunchgate');
+
+var store = Ext.create('Ext.data.Store', {
+
+    storeId: 'restaurantProfileStore',
+    model: 'Whatsforlunch.model.RestaurantProfile',
+    //autoLoad: true,
+
+    proxy: {
+        type: 'ajax',
+        url : 'resources/fixtures/ah-hua_all.json',
+        //reader: reader
+    }
+
+});
+
+// store.load();

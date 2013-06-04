@@ -18,11 +18,5 @@ Ext.define('Whatsforlunch.view.restaurant.List', {
 
 	initialize: function() {
 		this.callParent();
-
-		//var segmentedButton = this.down('segmentedbutton');
-
-//		Ext.Array.each(Oreilly.sessionDays, function(day) {
-//			segmentedButton.add(day);
-//		});
 	}
 });
