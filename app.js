@@ -42,7 +42,10 @@ Ext.application({
         'Main',
         'restaurant.Card',
         'restaurant.List',
-        'restaurant.Profile'
+        'restaurant.Profile',
+        'restaurant.Carousel',
+        'restaurant.Menu',
+        'restaurant.Info'
     ],
 
     controllers: [

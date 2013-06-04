@@ -1,7 +1,8 @@
 <?php
 
     // cURL mit allen URL-Parametern initialisieren
-    $curlHandle = curl_init("http://www.lunchgate.ch/api/1_0/?api_key=demo&action=getFullProfile&url_name=restaurant-hotel-belvoir&response=menu");
+    $restaurantId = $_GET['id'];
+    $curlHandle = curl_init("http://www.lunchgate.ch/api/1_0/?api_key=demo&action=getFullProfile&restaurant_id=".$restaurantId."&response=all");
     
     // Authentifizierung festlegen
     curl_setopt($curlHandle, CURLOPT_HTTPAUTH, CURLAUTH_DIGEST);

@@ -14,7 +14,7 @@ Ext.define('Whatsforlunch.model.Restaurant', {
             { name: 'distance', type: 'auto' }
         ],
         associations: { type: 'hasOne', model: 'Whatsforlunch.model.RestaurantProfile',
-                        primaryKey: 'uid'}
+                        primaryKey: 'uid', foreignKey: 'id'}
     }
 });
 
@@ -24,9 +24,6 @@ var store = Ext.create('Ext.data.Store', {
 
    storeId: 'restaurantStore',
    model: 'Whatsforlunch.model.Restaurant',
-   //fields: ['real_name', 'address'],
-   //autoLoad: true,
-   sorters: 'distance',
    proxy: {
         type: 'ajax',
         url : 'resources/fixtures/bydistance.json',

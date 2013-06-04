@@ -11,25 +11,22 @@ Ext.define('Whatsforlunch.view.restaurant.Profile', {
         items: [
             {
                 flex: 1,
-                id: 'RestaurantProfileHead',
                 layout: 'fit',
                 scrollable: 'vertical',
-                styleHtmlContent: true,
-                store: 'restaurantProfileStore',
-                xtype: 'dataview',
-                itemTpl: '<div class="restaurant_profile">Restaurant {real_name} Profile Item {phone} {seo_text}</div>'
+                xtype: 'restaurantInfo'
             },
             {
                 flex: 1,
-                id: 'RestaurantProfileMenu',
                 layout: 'fit',
-                scrollable: 'vertical',
-                styleHtmlContent: true,
-                store: 'restaurantProfileStore',
-                xtype: 'dataview',
-                itemTpl: '<div class="restaurant_profile">Restaurant {real_name} Profile Item {phone} {seo_text}</div>'
-            }
+                xtype: 'restaurantMenu',
+                scrollable: 'vertical'
+			},
+            {
+                flex: 1,
+                layout: 'fit',
+                xtype: 'imagecarousel'
 
+            }
         ]
     }
 });

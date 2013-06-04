@@ -7,8 +7,8 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
             restaurant: 'restaurant',
             profileCard: 'restaurantprofile',
             restaurantContainer: 'restaurantContainer',
-            restaurantInfo: 'restaurantContainer restaurantinfo'
-            
+            restaurantInfo: 'restaurantContainer restaurantInfo',
+            restaurantMenu: 'restaurantContainer restaurantMenu'
         },
         control: {
             restaurants: {
@@ -22,7 +22,13 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
         if(!this.profile) {
             this.profile = Ext.create('Whatsforlunch.view.restaurant.Profile');
         }
-        Ext.getCmp('RestaurantProfileHead').getStore().load();
+        window.record = record;
+        console.log(record);
+        var that = this;
+        record.getRestaurantProfile(function(details, operation) {
+            that.getRestaurantInfo().setRecord(details);
+        }, this);
+        // Ext.getCmp('RestaurantProfileHead').getStore().load();
         this.profile.setTitle(record.get('real_name'));
         this.getRestaurantContainer().push(this.profile);
 

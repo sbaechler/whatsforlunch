@@ -22,26 +22,11 @@ Ext.define('Whatsforlunch.model.RestaurantProfile', {
             { name: 'url_name', type:'string'}
 
 
-        ]
+        ],
+        proxy: {
+            type: 'ajax',
+            url: 'resources/fixtures/get_profile.json'
+        }
     }
 
 });
-
-
-var reader = Ext.create('Whatsforlunch.reader.Lunchgate');
-
-var store = Ext.create('Ext.data.Store', {
-
-    storeId: 'restaurantProfileStore',
-    model: 'Whatsforlunch.model.RestaurantProfile',
-    //autoLoad: true,
-
-    proxy: {
-        type: 'ajax',
-        url : 'resources/fixtures/ah-hua_all.json',
-        //reader: reader
-    }
-
-});
-
-// store.load();
