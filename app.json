@@ -16,7 +16,7 @@
      * This value is needed when build to resolve your application's dependencies if it requires server-side resources
      * that are not accessible via file system protocol.
      */
-    "url": null,
+    "url": "http://localhost/~web/lunch/",
 
     /**
      * List of all JavaScript assets in the right execution order.
@@ -101,7 +101,9 @@
     "resources": [
         "resources/images",
         "resources/icons",
-        "resources/startup"
+        "resources/startup",
+        "get_json.php",
+        "get_profile.php"
     ],
 
     /**
