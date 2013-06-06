@@ -1,6 +1,6 @@
-$base-color: #d40e3f;
+$base-color: #f42b47;
 $list-header-color: #666;
-$list-header-bg-color: #ccc;
+$list-header-bg-color: #fff;
 
 $index-bar-bg-color: #ccc;
 $index-bar-color: #666;
@@ -25,9 +25,24 @@ $index-bar-color: #666;
 @include sencha-loading-spinner;
 
 
-@include sencha-tabbar-ui('gray', #111, 'matte', lighten($base-color, 10%));
-@include sencha-toolbar-ui('dark', darken($base-color, 10%), $base-gradient);
-@include sencha-toolbar-ui('gray', #ccc);
+@include sencha-tabbar-ui('white', #111, 'matte', lighten($base-color, 10%));
+//@include sencha-toolbar-ui('dark', darken($base-color, 10%), $base-gradient);
+@include sencha-toolbar-ui('white', #ccc);
 
 //@include icon('gmap', '@');
 //@include icon('list', 'l');
+
+.carousel-item-img { background-size: cover !important; }
+body.x-desktop {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida", sans-serif;
+}
+
+.x-layout-card-item {
+  background: white;
+  color: #444;
+}
+.x-html a {
+  color: $base-color;
+  text-decoration: none;
+  &:hover, &:active { color: lighten($base-color, 10%); }
+}

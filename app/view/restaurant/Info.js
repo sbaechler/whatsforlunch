@@ -9,7 +9,7 @@ Ext.define('Whatsforlunch.view.restaurant.Info', {
         styleHtmlContent: true,
         tpl: [
             '<div class="restaurant_info">',
-            '<p>{address}, Tel: <a href="tel:{phone}"</a></p>',
+            '<p>{address}, Tel: <a href="tel:{phone}"> {phone}</a></p>',
             '{seo_text}</div>',
             ''].join("")
     }

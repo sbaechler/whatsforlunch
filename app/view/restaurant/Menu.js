@@ -5,7 +5,7 @@ Ext.define('Whatsforlunch.view.restaurant.Menu', {
 
     config: {
         cls: 'restaurantMenu',
-        //scrollable: 'vertical',
+        scrollable: 'vertical',
         styleHtmlContent: true,
         tpl: '<div class="restaurant_menu">Restaurant Menu</div>'
     }

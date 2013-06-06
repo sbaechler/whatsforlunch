@@ -10,8 +10,10 @@ Ext.define('Whatsforlunch.view.restaurant.List', {
         items: [
             {
                 xtype: 'list',
+                scrollable: true,
                 store: 'restaurantStore',
-                itemTpl: '<div class="restaurant"><strong>{real_name}</strong> {address}</div>'
+                itemTpl: ['<div class="restaurant"><h3>{real_name} &nbsp;<small>{address}</small></h3>',
+                          '</div>']
             }
         ]
     },

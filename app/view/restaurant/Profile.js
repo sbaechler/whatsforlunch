@@ -10,20 +10,13 @@ Ext.define('Whatsforlunch.view.restaurant.Profile', {
 
         items: [
             {
-                flex: 1,
+                flex: 3,
                 layout: 'fit',
                 scrollable: 'vertical',
                 xtype: 'restaurantInfo'
             },
             {
-                flex: 1,
-                layout: 'fit',
-                xtype: 'restaurantMenu',
-                scrollable: 'vertical'
-			},
-            {
-                flex: 1,
-                layout: 'fit',
+                flex: 2,
                 xtype: 'imagecarousel'
 
             }
