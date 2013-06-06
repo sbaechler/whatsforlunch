@@ -14,9 +14,11 @@ Ext.define('Whatsforlunch.model.RestaurantProfile', {
             { name: 'homepage', type:'string'},
             { name: 'seats_in', type:'auto'},
             { name: 'premium', type: 'string'},
+            { name: 'speciality', type: 'auto'},
+            { name: 'menu', type: 'auto'},
 
             { name: 'seats_out', type:'auto'},
-            { name: 'lat', type:'auto'},  // Echt, ist so im JSON
+            { name: 'lat', type:'auto'},
             { name: 'lon', type:'auto'},
             { name: 'seo_text', type:'string'},
             { name: 'images', type:'auto'},

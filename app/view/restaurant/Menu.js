@@ -1,13 +1,17 @@
 Ext.define('Whatsforlunch.view.restaurant.Menu', {
 
-	extend: 'Ext.Container',
+	extend: 'Ext.List',
 	xtype: 'restaurantMenu',
 
     config: {
         cls: 'restaurantMenu',
         scrollable: 'vertical',
         styleHtmlContent: true,
-        tpl: '<div class="restaurant_menu">Restaurant Menu</div>'
+        itemTpl: '<div class="menu-item category-{category}">' +
+                   '<p style="float:right">{price}</p><span style="clear:both"></span>' +
+                   '<h3>{title}</h3>' +
+                   '<p class="capfirst">{line2} {line3}</p>' +
+                '</div>'
     }
 
 });

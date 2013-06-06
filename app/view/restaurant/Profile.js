@@ -1,12 +1,10 @@
 Ext.define('Whatsforlunch.view.restaurant.Profile', {
     extend: 'Ext.Container',
 
-    xtype: 'restaurantprofile',
+    xtype: 'restaurantProfile',
 
     config: {
         layout: 'vbox',
-        title: '',
-
 
         items: [
             {

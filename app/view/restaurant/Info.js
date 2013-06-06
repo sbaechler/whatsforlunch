@@ -5,10 +5,10 @@ Ext.define('Whatsforlunch.view.restaurant.Info', {
 
     config: {
         cls: 'restaurantInfo',
-        //scrollable: 'vertical',
+        scrollable: 'vertical',
         styleHtmlContent: true,
         tpl: [
-            '<div class="restaurant_info">',
+            '<div class="restaurant_info"><h2>{premium}</h2>',
             '<p>{address}, Tel: <a href="tel:{phone}"> {phone}</a></p>',
             '{seo_text}</div>',
             ''].join("")

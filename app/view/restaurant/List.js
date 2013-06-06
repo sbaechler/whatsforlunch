@@ -1,21 +1,18 @@
 Ext.define('Whatsforlunch.view.restaurant.List', {
     extend: 'Ext.List',
-    //requires: 'Ext.SegmentedButton',
+    requires: 'Whatsforlunch.view.restaurant.Detail',
 
     xtype: 'restaurantlist',
 
+
     config: {
-        scrollable: true,
+        //scrollable: true,
         title: "Restaurants in deiner Nähe",
-        items: [
-            {
-                xtype: 'list',
-                scrollable: true,
-                store: 'restaurantStore',
-                itemTpl: ['<div class="restaurant"><h3>{real_name} &nbsp;<small>{address}</small></h3>',
-                          '</div>']
-            }
-        ]
+
+        itemTpl: ['<div class="restaurant">',
+                    '<h3>{real_name} &nbsp;<small>{address} &nbsp;({distance})</small></h3>',
+                  '</div>'],
+        store: 'restaurantStore'
     },
 
 	initialize: function() {

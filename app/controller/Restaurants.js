@@ -5,11 +5,13 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
         refs: {
             restaurants: 'restaurantlist',
             restaurant: 'restaurant',
-            profileCard: 'restaurantprofile',
+            profileCard: 'restaurantDetail',
+            restaurantProfile: 'restaurantDetail restaurantProfile',
             restaurantContainer: 'restaurantContainer',
-            restaurantInfo: 'restaurantContainer restaurantInfo',
-            restaurantMenu: 'restaurantContainer restaurantMenu',
-            restaurantCarousel: 'restaurantContainer imagecarousel'
+            restaurantInfo: 'restaurantDetail restaurantInfo',
+            restaurantMenu: 'restaurantDetail restaurantMenu',
+            restaurantCarousel: 'restaurantDetail imagecarousel',
+            detailToolbar: 'restaurantDetail toolbar'
         },
         control: {
             restaurants: {
@@ -25,16 +27,13 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
 
     onRestaurantTap: function(list, idx, el, record){
         if(!this.profile) {
-            this.profile = Ext.create('Whatsforlunch.view.restaurant.Profile');
+            this.profile = Ext.create('Whatsforlunch.view.restaurant.Detail');
         }
-        console.log(record);
         var that = this,
             slides = [];
         record.getRestaurantProfile(function(details, operation) {
             that.getRestaurantInfo().setRecord(details);
-            //console.log(details.getImagePaths());
             var images = details.getImagePaths();
-            console.log(images);
             for(var j=0; j < images.length; j++) {
                 slides.push({
                     xtype: 'image',
@@ -43,9 +42,37 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
                     src: images[j]
                 });
             }
+            // Create speciality card
+            var speciality = details.get('speciality');
+            if(typeof speciality == 'object' && speciality.length) {
+                this.profile.push({
+                    xtype: 'restaurantMenu',
+                    data: speciality,
+                    title: 'Spezialität'
+                });
+                this.profile.down('segmentedbutton').add({
+                    text: 'Spezialität'
+                });
+
+            }
+            // Create speciality card
+            var menu = details.get('menu');
+            if(typeof menu == 'object' && menu.length) {
+                this.profile.push({
+                    xtype: 'restaurantMenu',
+                    data: menu,
+                    title: 'Tagesmenu'
+                });
+                this.profile.down('segmentedbutton').add({
+                    text: 'Tagesmenu'
+                });
+            }
+
             that.getRestaurantCarousel().setItems(slides);
         }, this);
         this.profile.setTitle(record.get('real_name'));
+
+
         this.getRestaurantContainer().push(this.profile);
 
     },

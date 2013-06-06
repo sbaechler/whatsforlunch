@@ -44,6 +44,7 @@ Ext.application({
         'restaurant.List',
         'restaurant.Profile',
         'restaurant.Carousel',
+        'restaurant.Detail',
         'restaurant.Menu',
         'restaurant.Info'
     ],
