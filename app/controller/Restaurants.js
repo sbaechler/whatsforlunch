@@ -55,6 +55,35 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
                     title: 'Tagesmenu'
                 });
             }
+            // Create location card
+            var lat = details.get('lat'),
+                lon = details.get('lon');
+            if(lat!="" && lon!="") {
+                var position = new google.maps.LatLng(lat, lon), map;
+                map = {
+                    xtype: 'map',
+                    title: 'Ort',
+                    mapOptions: {
+                        center: position,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        zoom: 16
+                    },
+                    listeners: {
+                        maprender: function(comp, map) {
+                                    var marker = new google.maps.Marker({
+                                        position: position,
+                                        title : details.get('real_name'),
+                                        map: map
+                                    });
+                                   setTimeout(function() {
+                                        map.panTo(position);
+                                   }, 1000);
+                        }
+                    }
+                },
+
+                this.profile.add(map);
+            }
 
             that.getRestaurantCarousel().setItems(slides);
         }, this);

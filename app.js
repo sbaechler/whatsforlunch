@@ -30,7 +30,8 @@ Ext.application({
         'Ext.MessageBox',
         'Ext.data.Store',
         'Ext.data.TreeStore',
-        'Whatsforlunch.reader.Lunchgate'
+        'Whatsforlunch.reader.Lunchgate',
+        'Ext.Map'
     ],
 
     models:[
