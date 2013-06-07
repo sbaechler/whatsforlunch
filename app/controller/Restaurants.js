@@ -66,7 +66,7 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
                     mapOptions: {
                         center: position,
                         mapTypeId: google.maps.MapTypeId.ROADMAP,
-                        zoom: 16
+                        zoom: 15
                     },
                     listeners: {
                         maprender: function(comp, map) {

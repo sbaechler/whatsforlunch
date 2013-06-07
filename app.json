@@ -81,7 +81,8 @@
          * List of items in the CACHE MANIFEST section
          */
         "cache": [
-            "index.html"
+            "index.html",
+            "app.js"
         ],
         /**
          * List of items in the NETWORK section
