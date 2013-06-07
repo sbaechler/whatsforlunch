@@ -62,7 +62,7 @@ Ext.application({
         '144': 'resources/icons/Icon~ipad@2x.png'
     },
 
-    isIconPrecomposed: true,
+    isIconPrecomposed: false,
 
     startupImage: {
         '320x460': 'resources/startup/320x460.jpg',
