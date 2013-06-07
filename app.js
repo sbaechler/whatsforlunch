@@ -27,6 +27,7 @@ Ext.application({
     mapCenter: [47.3760303, 8.5263574],
 
     requires: [
+        'Ext.util.Geolocation',
         'Ext.MessageBox',
         'Ext.data.Store',
         'Ext.data.TreeStore',
@@ -54,8 +55,6 @@ Ext.application({
         'Restaurants'
     ],
 
-   // stores: ['RestaurantProfiles'],
-
     icon: {
         '57': 'resources/icons/Icon.png',
         '72': 'resources/icons/Icon~ipad.png',
@@ -73,13 +72,34 @@ Ext.application({
         '1536x2008': 'resources/startup/1536x2008.png',
         '1496x2048': 'resources/startup/1496x2048.png'
     },
+    init_geo : function(){ this.geo = Ext.create('Ext.util.Geolocation', {
+        autoUpdate: false,
+        listeners: {
+            locationupdate: function(geo) {
+                Whatsforlunch.app.restaurantStore.getProxy().setExtraParams(
+                    { lat: geo.getLatitude(), lon: geo.getLongitude(),
+                      distance: "1500" }
+                );
+                Whatsforlunch.app.restaurantStore.load();
+
+                // Destroy the #appLoadingIndicator element
+                Ext.fly('appLoadingIndicator').destroy();
+                // Initialize the main view
+                Ext.Viewport.add(Ext.create('Whatsforlunch.view.restaurant.Card'));
+            },
+            locationerror: function(geo, bTimeout, bPermissionDenied, bLocationUnavailable, message) {
+                if(bTimeout){
+                    alert('Timeout occurred.');
+                } else {
+                    alert('Error occurred.');
+                }
+            }
+        }
+    })},
 
     launch: function() {
-        // Destroy the #appLoadingIndicator element
-        Ext.fly('appLoadingIndicator').destroy();
-
-        // Initialize the main view
-        Ext.Viewport.add(Ext.create('Whatsforlunch.view.restaurant.Card'));
+        this.init_geo();
+        this.geo.updateLocation();
     },
 
     onUpdated: function() {

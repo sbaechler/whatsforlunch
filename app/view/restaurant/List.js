@@ -1,6 +1,7 @@
 Ext.define('Whatsforlunch.view.restaurant.List', {
     extend: 'Ext.List',
-    requires: 'Whatsforlunch.view.restaurant.Detail',
+    requires: ['Whatsforlunch.view.restaurant.Detail'
+    ],
 
     xtype: 'restaurantlist',
 

@@ -38,21 +38,21 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
                 });
             }
             // Create speciality card
-            var speciality = details.get('speciality');
-            if(typeof speciality == 'object' && speciality.length) {
-                this.profile.add({
-                    xtype: 'restaurantMenu',
-                    data: speciality,
-                    title: 'Spezialität'
-                });
-            }
-            // Create speciality card
             var menu = details.get('menu');
             if(typeof menu == 'object' && menu.length) {
                 this.profile.add({
                     xtype: 'restaurantMenu',
                     data: menu,
                     title: 'Tagesmenu'
+                });
+            }
+            // Create speciality card
+            var speciality = details.get('speciality');
+            if(typeof speciality == 'object' && speciality.length) {
+                this.profile.add({
+                    xtype: 'restaurantMenu',
+                    data: speciality,
+                    title: 'Spezialität'
                 });
             }
             // Create location card
@@ -89,13 +89,7 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
         }, this);
         this.profile.setTitle(record.get('real_name'));
 
-
         this.getRestaurantContainer().push(this.profile);
 
-    },
-    
-    //called when the Application is launched, remove if not needed
-    launch: function(app) {
-        
     }
 });

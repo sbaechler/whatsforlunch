@@ -11,7 +11,8 @@ Ext.define('Whatsforlunch.reader.Lunchgate', {
         for(var key in rawData) {
             data.push(rawData[key]);
         }
-
+        // the last element is empty.
+        data.pop();
         return data;
     }
 });
