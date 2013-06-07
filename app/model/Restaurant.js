@@ -30,17 +30,3 @@ Ext.define('Whatsforlunch.model.Restaurant', {
                         primaryKey: 'uid', foreignKey: 'id'}
     }
 });
-
-var reader = Ext.create('Whatsforlunch.reader.Lunchgate');
-
-Whatsforlunch.app.restaurantStore = Ext.create('Ext.data.Store', {
-
-   storeId: 'restaurantStore',
-   model: 'Whatsforlunch.model.Restaurant',
-   proxy: {
-        type: 'ajax',
-        //url : 'resources/fixtures/bydistance.json',
-        url : 'get_json.php',
-        reader: reader
-   }
-});

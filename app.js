@@ -76,16 +76,18 @@ Ext.application({
         autoUpdate: false,
         listeners: {
             locationupdate: function(geo) {
-                Whatsforlunch.app.restaurantStore.getProxy().setExtraParams(
+                var mainView = Ext.create('Whatsforlunch.view.restaurant.Card');
+                var store = mainView.items.items[0].getStore();
+                store.getProxy().setExtraParams(
                     { lat: geo.getLatitude(), lon: geo.getLongitude(),
                       distance: "1500" }
                 );
-                Whatsforlunch.app.restaurantStore.load();
+                store.load();
 
                 // Destroy the #appLoadingIndicator element
                 Ext.fly('appLoadingIndicator').destroy();
                 // Initialize the main view
-                Ext.Viewport.add(Ext.create('Whatsforlunch.view.restaurant.Card'));
+                Ext.Viewport.add(mainView);
             },
             locationerror: function(geo, bTimeout, bPermissionDenied, bLocationUnavailable, message) {
                 if(bTimeout){
