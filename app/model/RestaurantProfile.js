@@ -28,8 +28,8 @@ Ext.define('Whatsforlunch.model.RestaurantProfile', {
         ],
         proxy: {
             type: 'ajax',
-            url: 'resources/fixtures/get_profile.json'
-            //url: 'get_profile.php'
+            //url: 'resources/fixtures/get_profile.json'
+            url: 'get_profile.php'
         }
     },
     getImagePaths: function() {

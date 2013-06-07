@@ -39,8 +39,8 @@ Whatsforlunch.app.restaurantStore = Ext.create('Ext.data.Store', {
    model: 'Whatsforlunch.model.Restaurant',
    proxy: {
         type: 'ajax',
-        url : 'resources/fixtures/bydistance.json',
-        //url : 'get_json.php',
+        //url : 'resources/fixtures/bydistance.json',
+        url : 'get_json.php',
         reader: reader
    }
 });
