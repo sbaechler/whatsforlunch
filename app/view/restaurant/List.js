@@ -13,9 +13,6 @@ Ext.define('Whatsforlunch.view.restaurant.List', {
                     '<h3>{real_name} &nbsp;<small>{address} &nbsp;({distance})</small></h3>',
                   '</div>'],
         store: 'restaurantStore'
-    },
+    }
 
-	initialize: function() {
-		this.callParent();
-	}
 });

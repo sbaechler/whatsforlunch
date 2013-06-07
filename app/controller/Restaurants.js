@@ -8,7 +8,7 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
             profileCard: 'restaurantDetail',
             restaurantProfile: 'restaurantDetail restaurantProfile',
             restaurantContainer: 'restaurantContainer',
-            restaurantInfo: 'restaurantDetail restaurantInfo',
+            restaurantInfo: 'restaurantProfile restaurantInfo',
             restaurantMenu: 'restaurantDetail restaurantMenu',
             restaurantCarousel: 'restaurantDetail imagecarousel',
             detailToolbar: 'restaurantDetail toolbar'
@@ -17,18 +17,13 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
             restaurants: {
                 itemtap: 'onRestaurantTap'
             }
-            
         }
-    },
-
-    loadImages: function(record){
-        var items, i, j, ln;
     },
 
     onRestaurantTap: function(list, idx, el, record){
-        if(!this.profile) {
-            this.profile = Ext.create('Whatsforlunch.view.restaurant.Detail');
-        }
+        //if(!this.profile) {  // können später noch optimieren.
+        this.profile = Ext.create('Whatsforlunch.view.restaurant.Detail');
+        //}
         var that = this,
             slides = [];
         record.getRestaurantProfile(function(details, operation) {
@@ -45,26 +40,19 @@ Ext.define('Whatsforlunch.controller.Restaurants', {
             // Create speciality card
             var speciality = details.get('speciality');
             if(typeof speciality == 'object' && speciality.length) {
-                this.profile.push({
+                this.profile.add({
                     xtype: 'restaurantMenu',
                     data: speciality,
                     title: 'Spezialität'
                 });
-                this.profile.down('segmentedbutton').add({
-                    text: 'Spezialität'
-                });
-
             }
             // Create speciality card
             var menu = details.get('menu');
             if(typeof menu == 'object' && menu.length) {
-                this.profile.push({
+                this.profile.add({
                     xtype: 'restaurantMenu',
                     data: menu,
                     title: 'Tagesmenu'
-                });
-                this.profile.down('segmentedbutton').add({
-                    text: 'Tagesmenu'
                 });
             }
 

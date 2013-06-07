@@ -10,6 +10,7 @@ Ext.define('Whatsforlunch.view.restaurant.Carousel', {
 
     config: {
         cls: 'imagecarousel',
+        layout: 'fit',
         direction: 'horizontal',
         directionLock: 'true',
         items: []  // added in the controller

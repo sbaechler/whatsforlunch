@@ -1,7 +1,6 @@
 Ext.define('Whatsforlunch.view.restaurant.Card', {
 
     extend: 'Ext.NavigationView',
-    requires: 'Ext.SegmentedButton',
 
     xtype: 'restaurantContainer',
 
@@ -10,12 +9,13 @@ Ext.define('Whatsforlunch.view.restaurant.Card', {
         iconCls: 'locate',
         ui: 'light',
 
-        autoDestroy: false,
+        autoDestroy: true,
 
         items: [
             {
                 xtype: 'restaurantlist'
             }
         ]
+
     }
 });
